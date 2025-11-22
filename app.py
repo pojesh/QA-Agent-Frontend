@@ -3,9 +3,12 @@ import requests
 import os
 import uuid
 import streamlit.components.v1 as components
+import dotenv 
 
 # Configuration
-API_URL = "http://localhost:8000/api/v1"
+dotenv.load_dotenv()
+API_URL = os.getenv("url")
+API_URL = API_URL + "/api/v1"
 
 st.set_page_config(
     page_title="Autonomous QA Agent",
