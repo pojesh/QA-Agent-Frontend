@@ -1,0 +1,13 @@
+
+streamlit
+python-dotenv
+pymupdf
+unstructured
+beautifulsoup4
+requests
+selenium
+webdriver-manager
+pytest
+httpx
+markdown
+uuid
